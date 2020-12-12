@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         botao = findViewById(R.id.botao_teste)
         botao.setOnClickListener {
-            Toast.makeText(this, "Botão Teste", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Campeão Eterno", Toast.LENGTH_LONG).show()
         }
 
     }

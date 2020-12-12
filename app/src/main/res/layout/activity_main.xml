@@ -11,8 +11,20 @@
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="App do Bueno"
+        android:text="App do Santastico"
+        android:layout_gravity="center"
         android:textSize="20sp"
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imagemSantos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src ="@drawable/santos"
 
         />
 
