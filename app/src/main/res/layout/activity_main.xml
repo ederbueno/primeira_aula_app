@@ -7,13 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/titulo"
+
+
+
+    <ImageView
+        android:id="@+id/imagemSantosLetreiro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="App do Santastico"
         android:layout_gravity="center"
-        android:textSize="20sp"
+        android:src ="@drawable/letra"
 
         />
 
@@ -24,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src ="@drawable/santos"
+        android:src ="@drawable/baleia"
 
         />
 
@@ -34,6 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Confirmar"
-        android:textSize="26sp" />
+        android:textSize="26sp"
+        android:background="@android:color/black"
+
+        />
+
 
 </LinearLayout>
